@@ -1,1 +1,23 @@
-%h1 Welcome!
+#banner
+    .banner_content
+        %h1 Welcome!
+        %p Your life's work. Organized, always.
+        %button= link_to 'Enter', new_user_registration_path
+
+#callouts
+    .callout_inner
+        .wrapper
+            .callout
+                %h2 Organize
+                %p Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Donec convallis nisi quam, eu maximus leo luctus condimentum. 
+                Phasellus sit amet posuere dolor. Fusce posuere vitae sapien nec scelerisque. 
+                Etiam consequat erat eget ex pulvinar sodales. Pellentesque imperdiet vestibulum metus, 
+                sit amet ullamcorper dui tincidunt eget. Mauris tellus magna, pharetra a risus sed, 
+                egestas tincidunt metus. Donec finibus lectus diam, vitae ult
+
+#bottom_cta
+    .wrapper
+        %h2 Go Ahead!
+        %br
+        %button= link_to "Join now", new_user_registration_path
