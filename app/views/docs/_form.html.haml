@@ -1,4 +1,4 @@
 = simple_form_for @doc do |f|
  = f.input :title
- = f.input :content
+ = f.input :content, as: :wysihtml5, wysihtml5: {toolbar: { fa: true, 'font-styles': true, 'html': false, 'link': false, 'image': false,'smallmodals': false }}
  = f.button :submit, class: 'button'

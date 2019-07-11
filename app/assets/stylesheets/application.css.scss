@@ -2,6 +2,10 @@
  *= require_self
  */
 
+@import "bootstrap";
+@import "bootstrap-wysihtml5/bootstrap3-wysihtml5";
+@import "font-awesome-sprockets";
+@import "font-awesome";
 @import 'normalize';
 @import 'global.scss';
 @import 'docs.scss';

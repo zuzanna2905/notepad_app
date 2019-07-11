@@ -5,6 +5,9 @@ ruby '2.6.1'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.3'
+gem 'jquery-rails'
+gem 'bootstrap', '~> 4.3.1'
+gem 'font-awesome-sass', '~> 5.8.1'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 # Use Puma as the app server
@@ -18,6 +21,7 @@ gem 'uglifier', '>= 1.3.0'
 gem 'haml', '~> 5.1', '>= 5.1.1'
 gem 'simple_form', '~> 4.1'
 gem 'devise', '~> 4.6', '>= 4.6.2'
+gem 'bootstrap-wysihtml5-rails'
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
