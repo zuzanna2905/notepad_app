@@ -1,7 +1,8 @@
-$dark_gray: #2B2E2E;
-$light_gray: #C0C1C1;
-$green: #33CD99;
-$tint: #8b9292;
+$eerie_black: #1A181B;
+$india_green: #288E11;
+$white: #FFFBFE;
+$trolley_grey: #7A7D7D;
+$light_gray: #D0CFCF;
 
 @mixin bold_font {
 	font-family: "Brandon Grotesque","Helvetica Neue", Helvetica, sans-serif;
@@ -42,7 +43,7 @@ body {
 button, .button {
 	border: none;
 	outline: none;
-	background: $green;
+	background: $india_green;
 	padding: 1rem 3.5rem;
 	border-radius: 2rem;
 	a {
@@ -57,20 +58,20 @@ button, .button {
 }
 
 a {
-	color: $green;
+	color: $india_green;
 	text-decoration: none;
 	&:hover {
-		color: $dark_gray;
+		color: $trolley_grey;
 	}
 }
 
 header {
-	background: $tint;
+	background: $india_green;
 	position: fixed;
 	top: 0;
 	width: 100%;
 	padding: 1.75rem 0;
-	border-bottom: 7px solid $green;
+	border-bottom: 7px solid $india_green;
 	.header_inner {
 		width: 90%;
 		margin: 0 auto;
@@ -91,7 +92,7 @@ header {
 				line-height: 1.5;
 				margin-left: 1rem;
 				&:hover {
-					color: $green;
+					color: $india_green
 				}
 			}
 		}
@@ -99,7 +100,7 @@ header {
 }
 
 footer {
-	background: $dark_gray;
+	background: $trolley_grey;
 	width: 100%;
 	padding: 2rem 0;
 	color: white;
