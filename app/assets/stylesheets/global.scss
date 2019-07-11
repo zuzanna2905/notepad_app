@@ -16,7 +16,6 @@ $light_gray: #D0CFCF;
 }
 
 body {
-	padding-top: 4.5rem;
 	font-family: "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
 }
 
@@ -75,13 +74,15 @@ header {
 	.header_inner {
 		width: 90%;
 		margin: 0 auto;
-		#logo {
+		.logo {
 			display: inline-block;
-			width: 10rem;
+			width: 20rem;
 			float: left;
-			color: white;
 			font-family: "Brandon Grotesque","Helvetica Neue", Helvetica, sans-serif;
-			font-size: 2.0rem;
+			font-size: 1.5rem;
+			a {
+				color: white;
+			}
 		}
 		nav {
 			float: right;
@@ -92,7 +93,7 @@ header {
 				line-height: 1.5;
 				margin-left: 1rem;
 				&:hover {
-					color: $india_green
+					color: $light_gray
 				}
 			}
 		}
